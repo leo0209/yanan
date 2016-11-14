@@ -245,6 +245,86 @@
     }
   }
 }
+
+.section_tuijian_infor{
+  margin-top: 22px;
+  .tuijian_infor_date{
+
+  }
+  .tuijian_infor_choice{
+    background: #ffffff;
+    .tit{
+      padding: 0 31px;
+      height: 68px;
+      line-height: 68px;
+      border-bottom: 2px solid #c8c8c8;
+      img{
+        .inline-block;
+        margin-right: 18px;
+      }
+      span{
+        .inline-block;
+        font-size: 28px;
+        color: #585858;
+      }
+    }
+  }
+  .tuijian_infor_table{
+    background: #ffffff;
+    margin-top: 22px;
+    padding-bottom: 50px;
+    ul{
+      li{
+        .clearfix;
+        padding: 0 31px;
+        height: 84px;
+        line-height: 84px;
+        border-bottom: 2px solid #c8c8c8;
+        span{
+          .fl;
+          display: block;
+          width: 250px;
+          font-size: 26px;
+          color: #585858;
+          .text-ellipsis;
+        }
+        p{
+          .fl;
+          font-size: 24px;
+          color: #948f8f;
+        }
+        a{
+          .fr;
+          display: block;
+          width: 17px;
+          height: 30px;
+          background: url(../img/icon21.png) no-repeat center center;
+          margin: 27px 0;
+        }
+        input{
+          overflow: hidden;
+          height: 80px;
+          line-height: 80px;
+          border:none;
+          outline: none;
+          font-size: 24px;
+          color: #948f8f;
+          background: none;
+        }
+      }
+    }
+    .p{
+      font-size: 26px;
+      color: #565454;
+      margin-top: 20px;
+      padding: 0 31px;
+      a{
+        color: #e9190f;
+      }
+    }
+  }
+}
+
 .section_tuijian_detail{
   .tuijian_detail_tit{
     padding: 20px 22px;
@@ -337,6 +417,7 @@
   }
   .tuijian_detail_tab{
     margin-top: 22px;
+    padding-bottom: 110px;
     .MM_box{
       background: none;
     }
@@ -1009,6 +1090,81 @@
   }
 }
 
+.CC_list{
+  ul{
+    li{
+      .clearfix;
+      padding: 0 31px;
+      height: 84px;
+      line-height: 84px;
+      border-bottom: 2px solid #c8c8c8;
+      span{
+        .fl;
+        display: block;
+        width: 250px;
+        font-size: 26px;
+        color: #585858;
+        .text-ellipsis;
+      }
+      .list_box{
+        .fl;
+        .clearfix;
+        padding: 22px 0;
+        .CC_mud{
+          .fl;
+          width: 48px;
+          height: 40px;
+          background: #e9190f url(../img/icon19.png) no-repeat center center;
+          border:none;
+          outline: none;
+          cursor: pointer;
+          border-radius: 5px 0 0 5px
+        }
+        .CC_txt{
+          .fl;
+          width: 92px;
+          height: 40px;
+          line-height: 40px;
+          border:none;
+          outline: none;
+          font-size: 22px;
+          color: #585858;
+          background: #f0f0f0;
+          text-align: center;
+        }
+        .CC_add{
+          .fl;
+          width: 48px;
+          height: 40px;
+          line-height: 30px;
+          background: #e9190f;
+          border:none;
+          outline: none;
+          cursor: pointer;
+          border-radius: 0 5px 5px 0;
+          text-align: center;
+          color: #ffffff;
+          font-size: 35px;
+        }
+      }
+      p{
+        .fr;
+        font-size: 26px;
+        color: #585858;
+        .CC_check{
+          width: 25px;
+          height: 25px;
+          .inline-block;
+          margin: -6px 15px 0 0;
+        }
+        .CC_price{
+          color: #eb3027;
+          font-style: normal;
+        }
+      }
+    }
+  }
+}
 .footer_gm{
   position: fixed;
   width: 100%;
@@ -1043,6 +1199,53 @@
     }
   }
   .gm_buy{
+    .fl;
+    width: 50%;
+    height: 100%;
+    background: #e9190f;
+    text-align: center;
+    display: box; 
+    display: -webkit-box; 
+    display: -moz-box; 
+    -webkit-box-pack:center; 
+    -moz-box-pack:center; 
+    -webkit-box-align:center; 
+    -moz-box-align:center;
+    a{
+      font-size: 40px;
+      color: #ffffff;
+    }
+  }
+}
+
+.footer_ms{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 106px;
+  z-index: 999;
+  .clearfix;
+  background: #ffffff;
+  .ms_price{
+    .clearfix;
+    .fl;
+    width: 50%;
+    line-height: 106px;
+    padding: 0 18px;
+    span{
+      font-size: 30px;
+      color: #4c4c4c;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    p{
+      font-size: 43px;
+      color: #ff0000;
+      .inline-block;
+    }
+  }
+  .ms_sure{
     .fl;
     width: 50%;
     height: 100%;
